@@ -24,6 +24,7 @@ clear ; close all; clc
 %  contains the label.
 
 data = load('ex2data1.txt');
+data = csvread('../clear_4.csv');
 X = data(:, [1, 2]); y = data(:, 3);
 
 %% ==================== Part 1: Plotting ====================
