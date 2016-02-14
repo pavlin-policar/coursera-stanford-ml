@@ -18,9 +18,7 @@ function visualizeBoundary(X, y, model, varargin)
 
   % Plot the SVM boundary
   hold on
-  % TODO Figure out why the contour line is not being drawn even though I
-  %      thought I had fixed the problem
-  contour(X1, X2, vals, [0 0], 'linecolor', 'auto');
+  contour(X1, X2, vals, [1 1], 'linecolor', 'b');
   hold off;
 
 end
